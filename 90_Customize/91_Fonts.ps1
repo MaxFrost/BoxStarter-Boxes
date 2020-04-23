@@ -1,1 +1,1 @@
-choco upgrade -y firacode-ttf
+choco upgrade -y cascadiafonts

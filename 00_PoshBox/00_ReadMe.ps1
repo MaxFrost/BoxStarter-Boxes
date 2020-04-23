@@ -1,4 +1,4 @@
-TZUTIL /s "Eastern Standard Time"
+TZUTIL /s "Central Standard Time"
 Import-Module (Join-Path $PSScriptRoot ..\PoshBox.psm1) -Force
 
 & (Join-Path $PSScriptRoot 01_PowerShellSettings.ps1)

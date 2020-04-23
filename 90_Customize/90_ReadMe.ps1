@@ -4,13 +4,13 @@ Import-Module (Join-Path $PSScriptRoot ..\PoshBox.psm1) -Force
 & (Join-Path $PSScriptRoot 91_Fonts.ps1)
 & (Join-Path $PSScriptRoot 92_Apps.ps1)
 
-mkdir ~\Projects -Force
-mkdir ~\Projects\Platform -Force
-mkdir ~\Projects\Modules -Force
-mkdir ~\Projects\Provisioning -Force
+mkdir ~\Documents\Work -Force
+mkdir ~\Documents\Work\Platform -Force
+mkdir ~\Documents\Work\Modules -Force
+mkdir ~\Documents\Work\Provisioning -Force
 
-git config --global user.email "Joel.Bennett@Questionmark.com"
-git config --global user.name  "Joel Bennett"
+git config --global user.email "James.Maxson@Questionmark.com"
+git config --global user.name  "James Maxson"
 git config --global core.autocrlf "input"
 
 if (Get-Command code -ErrorAction Ignore) {
