@@ -7,8 +7,9 @@ if (Test-PendingReboot) {
 
 #--- Ubuntu ---
 # TODO: Move this to choco upgrade once --root is included in that package
+<#
 if (-not (Test-Path ~/Ubuntu.appx)) {
-    Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile ~/Ubuntu.appx -UseBasicParsing
+    Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-2004 -OutFile ~/Ubuntu.appx -UseBasicParsing
 }
 Add-AppxPackage -Path ~/Ubuntu.appx
 RefreshEnv
@@ -17,7 +18,7 @@ RefreshEnv
 Ubuntu1804 install --root
 Ubuntu1804 run apt update
 Ubuntu1804 run apt upgrade -y
-
+#>
 <#
 # We can pre-install tools in the WSL instance
 write-host "Installing tools inside the WSL distro..."

@@ -1,5 +1,5 @@
 Import-Module (Join-Path $PSScriptRoot ..\PoshBox.psm1) -Force
-& (Join-Path $PSScriptRoot ..\20_PoshDevBox\20_ReadMe.ps1)
+& (Join-Path $PSScriptRoot ..\20_QMDevOpsBox\20_ReadMe.ps1)
 
 & (Join-Path $PSScriptRoot 91_Fonts.ps1)
 & (Join-Path $PSScriptRoot 92_Apps.ps1)

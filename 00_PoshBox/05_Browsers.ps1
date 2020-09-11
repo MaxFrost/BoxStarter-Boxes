@@ -1,2 +1,2 @@
-choco upgrade -y googlechrome
+choco upgrade -y microsoft-edge
 choco upgrade -y firefox

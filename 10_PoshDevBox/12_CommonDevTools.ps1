@@ -8,6 +8,5 @@ refreshenv
 pwsh (Join-Path $PSScriptRoot ..\PoshBox\PowerShellSettings.ps1)
 
 @(
-    "shan.code-settings-sync"
     "ms-vscode.PowerShell"
 ) | InstallCodeExtension
