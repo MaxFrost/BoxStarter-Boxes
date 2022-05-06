@@ -6,3 +6,4 @@ choco upgrade -y notepadplusplus
 choco upgrade -y vim-console
 choco upgrade -y spotify
 choco upgrade -y windows-admin-center
+choco upgrade -y 1password
