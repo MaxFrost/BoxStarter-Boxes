@@ -25,7 +25,7 @@ if ($IsLinux -or $IsMacOs) {
     exit
 }
 
-TZUTIL /s "Eastern Standard Time"
+TZUTIL /s "Central Standard Time"
 
 Import-Module (Join-Path $PSScriptRoot PoshBox.psm1) -Force -Scope Global
 
